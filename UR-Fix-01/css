@@ -1,0 +1,40 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos para el banner */
+#banner {
+  position: relative;
+}
+
+#banner h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.bg-danger {
+    --bs-bg-opacity: 1;
+    background-color: color #da0921;
+  }
+
+
+
+/* Estilos para la sección de agenda */
+#agendaItems .agenda-item {
+  background-color: #f8f9fa;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Estilos para el formulario de contacto */
+#contactForm {
+  max-width: 600px;
+  margin: 0 auto;
+}
